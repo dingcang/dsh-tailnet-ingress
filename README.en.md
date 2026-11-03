@@ -52,7 +52,11 @@ Listeners are owned by `ctx.effect`: they start with the plugin on every `dsh we
 ## Install
 
 ```bash
-dsh plugin --profile web add <this-directory-or-git-url>
+# from GitHub
+dsh plugin --profile web add github:dingcang/dsh-tailnet-ingress
+
+# or from a local directory
+dsh plugin --profile web add file:/path/to/dsh-tailnet-ingress
 ```
 
 Restart `dsh web` afterwards so the profile reloads the package.

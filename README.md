@@ -52,7 +52,11 @@ dsh web --host 127.0.0.1 --trusted-host 192.168.1.5 100.x.y.z
 ## 安装
 
 ```bash
-dsh plugin --profile web add <本目录或 git 地址>
+# 从 GitHub 安装
+dsh plugin --profile web add github:dingcang/dsh-tailnet-ingress
+
+# 或从本地目录安装
+dsh plugin --profile web add file:/path/to/dsh-tailnet-ingress
 ```
 
 安装后重启 `dsh web`，让 profile 重新加载该包。
