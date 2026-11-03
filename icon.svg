@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Ingress relay">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1B2436"/>
+  <path d="M10 16 L34 28" fill="none" stroke="#8FD694" stroke-width="4" stroke-linecap="round"/>
+  <path d="M10 32 L36 32" fill="none" stroke="#F2C14E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M10 48 L34 36" fill="none" stroke="#F2879B" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="46" cy="32" r="8" fill="none" stroke="#7FB0FF" stroke-width="4"/>
+  <circle cx="46" cy="32" r="2" fill="#7FB0FF"/>
+</svg>

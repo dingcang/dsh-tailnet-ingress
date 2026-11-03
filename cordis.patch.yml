@@ -1,0 +1,13 @@
+- insert:
+    - id: dsh-tailnet-ingress
+      name: '@local/dsh-tailnet-ingress'
+      config:
+        # Extra addresses to serve. Leave empty and `autoDetect` finds this
+        # machine's own private / CGNAT / tunnel addresses on every boot.
+        hosts: []
+        autoDetect: true
+        # 0 keeps the ingress on whatever port the Web listener actually binds,
+        # so `--port` changes and a fresh session both stay in sync.
+        port: 0
+        upstreamHost: 127.0.0.1
+        upstreamPort: 0

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ingress relay",
+    "description": "Forwards the LAN and Tailscale addresses into the loopback DSH Web UI, so those devices reach the same session while this machine keeps using 127.0.0.1."
+  }
+}
