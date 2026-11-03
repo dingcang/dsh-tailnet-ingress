@@ -52,6 +52,9 @@ dsh web --host 127.0.0.1 --trusted-host 192.168.1.5 100.x.y.z
 ## 安装
 
 ```bash
+# 从 npm 安装（推荐）
+dsh plugin --profile web add @dingcang/dsh-tailnet-ingress
+
 # 从 GitHub 安装
 dsh plugin --profile web add github:dingcang/dsh-tailnet-ingress
 

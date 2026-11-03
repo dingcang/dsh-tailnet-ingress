@@ -52,6 +52,9 @@ Listeners are owned by `ctx.effect`: they start with the plugin on every `dsh we
 ## Install
 
 ```bash
+# from npm (recommended)
+dsh plugin --profile web add @dingcang/dsh-tailnet-ingress
+
 # from GitHub
 dsh plugin --profile web add github:dingcang/dsh-tailnet-ingress
 
