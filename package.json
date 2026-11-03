@@ -1,10 +1,12 @@
 {
-  "name": "@local/dsh-tailnet-ingress",
+  "name": "@dingcang/dsh-tailnet-ingress",
   "version": "1.2.0",
-  "private": true,
   "type": "module",
   "description": "Serves the loopback DSH Web UI on the machine's own private, CGNAT and tunnel addresses, following the listener's port.",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",

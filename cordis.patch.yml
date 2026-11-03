@@ -1,6 +1,6 @@
 - insert:
     - id: dsh-tailnet-ingress
-      name: '@local/dsh-tailnet-ingress'
+      name: '@dingcang/dsh-tailnet-ingress'
       config:
         # Extra addresses to serve. Leave empty and `autoDetect` finds this
         # machine's own private / CGNAT / tunnel addresses on every boot.
