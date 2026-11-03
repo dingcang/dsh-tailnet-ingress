@@ -4,6 +4,24 @@
   "type": "module",
   "description": "Serves the loopback DSH Web UI on the machine's own private, CGNAT and tunnel addresses, following the listener's port.",
   "license": "MIT",
+  "homepage": "https://github.com/dingcang/dsh-tailnet-ingress#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingcang/dsh-tailnet-ingress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dingcang/dsh-tailnet-ingress/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "tailscale",
+    "shadowrocket",
+    "remote-access",
+    "tunnel",
+    "localhost"
+  ],
   "publishConfig": {
     "access": "public"
   },
